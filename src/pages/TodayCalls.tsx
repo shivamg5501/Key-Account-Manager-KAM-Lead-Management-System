@@ -30,7 +30,7 @@ const TodayCalls = () => {
       ) : todayCalls?.length === 0 ? (
         <div className="text-center py-12">
           <Phone className="w-12 h-12 text-gray-400 mx-auto mb-4" />
-          <h3 className="text-lg font-medium text-gray-900">No calls scheduled for today</h3>
+          <h3 className="text-lg font-medium text-gray-900">No calls scheduled for you today</h3>
           <p className="mt-2 text-gray-500">Check back tomorrow for new calls.</p>
         </div>
       ) : (
